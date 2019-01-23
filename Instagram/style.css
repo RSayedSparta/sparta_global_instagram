@@ -23,15 +23,17 @@ input {
 .main{
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
-    margin-left: 23%;
+    margin-left: 18%;
 }
 
 .image{
     padding: 10px;
+    align-items: center;
     display:inline-block;
 }
 
 .form{
+    padding-top: 50px;
     margin: 10px;
     text-align: center;
     display:inline-block;
@@ -62,4 +64,8 @@ input {
 
 #logo{
     width: 195px;
+}
+
+#line{
+  text-decoration-line: overline;
 }
